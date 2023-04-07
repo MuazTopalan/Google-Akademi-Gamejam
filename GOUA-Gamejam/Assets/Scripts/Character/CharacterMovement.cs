@@ -5,6 +5,7 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     private int movementSpeed = 10;
+    
     Vector2 horizontalMovement;
     Vector2 verticalMovement;
     
