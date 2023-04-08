@@ -39,6 +39,12 @@ public class Skeleton : MonoBehaviour
             // Add your attack code here
             Debug.Log("Skeleton attacking player!");
         }
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        TakeDamage();
     }
 
     public void TakeDamage(int damage)
@@ -59,7 +65,7 @@ public class Skeleton : MonoBehaviour
             }
             else if (gameObject.CompareTag("Projectile"))
             {
-                skeletonHealth -= Projectile.projectileDamage;
+                skeletonHealth = skeletonHealth - Projectile.projectileDamage;
             }
 
             if (skeletonHealth <= 0)
