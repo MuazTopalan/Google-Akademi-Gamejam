@@ -101,8 +101,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rangerAttackRange: 5
+<<<<<<< HEAD
+  rangerHealth: 30
+=======
   rangerHealth: 100
   rangerXP: {fileID: 6240466532063727614, guid: 7b2d10b2ab4222f41a0f6594ee126eff, type: 3}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6413f9477c18ce162b63be021bc72379e4d7efe4
+>>>>>>> Stashed changes
 --- !u!50 &-8631461204119319959
 Rigidbody2D:
   serializedVersion: 4
