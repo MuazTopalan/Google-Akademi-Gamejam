@@ -6,18 +6,27 @@ public class ProjectileSpawner : MonoBehaviour
 {
    
    [SerializeField] private GameObject projectile;    
-   [SerializeField] private float projectileSpeed = 20f;     
+   [SerializeField] private float projectileSpeed = 20f;
+
+   
+   public static float projectileCoolDown = 2;
+   public float nextFire;
 
     
     void Update()
     {
-       Shoot();
+        if(Input.GetMouseButtonDown(0)){
+            Shoot();
+
+        }
     }
 
     void Shoot()
     {
-        if (Input.GetMouseButtonDown(0))
+        if(Time.time > nextFire)
         {
+            nextFire = Time.time + projectileCoolDown;
+        
             
             Vector3 clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             clickPosition.z = 0;
@@ -31,8 +40,14 @@ public class ProjectileSpawner : MonoBehaviour
             bullet.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
             bullet.GetComponent<Rigidbody2D>().velocity = shootdirection.normalized * projectileSpeed;
         }
+            
+        
+       
+      
 
     }
+    
+
 }
 
 
