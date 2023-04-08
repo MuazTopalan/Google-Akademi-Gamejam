@@ -102,6 +102,7 @@ MonoBehaviour:
   moveSpeed: 5
   rangerAttackRange: 5
   rangerHealth: 100
+  rangerXP: {fileID: 6240466532063727614, guid: 7b2d10b2ab4222f41a0f6594ee126eff, type: 3}
 --- !u!50 &-8631461204119319959
 Rigidbody2D:
   serializedVersion: 4

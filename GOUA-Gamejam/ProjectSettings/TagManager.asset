@@ -9,6 +9,9 @@ TagManager:
   - Bible
   - Projectile
   - Enemy
+  - BruteXP
+  - RangerXP
+  - SkeletonXP
   layers:
   - Default
   - TransparentFX

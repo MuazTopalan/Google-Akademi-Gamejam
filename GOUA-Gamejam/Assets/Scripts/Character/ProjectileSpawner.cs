@@ -9,7 +9,7 @@ public class ProjectileSpawner : MonoBehaviour
    [SerializeField] private float projectileSpeed = 20f;
 
    
-   public static float projectileCoolDown = 2;
+   public static float projectileCoolDown = 0.5f;
    public float nextFire;
 
     

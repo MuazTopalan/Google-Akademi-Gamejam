@@ -7,11 +7,13 @@ public class Ranger : MonoBehaviour
     public int rangerHealth = 100;
 
     private GameObject player;
+    [SerializeField] private GameObject rangerXP;
 
     private void Start()
     {
         // Find the player object in the scene
         player = GameObject.FindGameObjectWithTag("Player");
+        
     }
 
     private void Update()
@@ -58,7 +60,7 @@ public class Ranger : MonoBehaviour
         if (other.gameObject.tag == "Projectile")
         {
             rangerHealth = rangerHealth - Projectile.projectileDamage;
-            Debug.Log("Çarptý");
+            Debug.Log("ï¿½arptï¿½");
         }
         if (rangerHealth <= 0)
         {
@@ -71,7 +73,7 @@ public class Ranger : MonoBehaviour
 
     private void Die()
     {
-        // Add death code here
+        Instantiate(rangerXP, transform.position , Quaternion.identity);
         Debug.Log("Ranger died!");
         Destroy(gameObject);
     }

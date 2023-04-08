@@ -7,11 +7,13 @@ public class Skeleton : MonoBehaviour
     public int skeletonHealth = 100;
 
     private GameObject player;
+    [SerializeField] private GameObject skeletonXP;
 
     private void Start()
     {
-        // Find the player object in the scene
+        
         player = GameObject.FindGameObjectWithTag("Player");
+        
     }
 
     private void Update()
@@ -20,10 +22,10 @@ public class Skeleton : MonoBehaviour
 
         if (distanceToPlayer > skeletonAttackRange)
         {
-            // Move towards the player
+          
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);
 
-            // Flip sprite to face the player
+       
             if (transform.position.x > player.transform.position.x)
             {
                 transform.localScale = new Vector2(-1, 1);
@@ -35,8 +37,7 @@ public class Skeleton : MonoBehaviour
         }
         else
         {
-            // Stop moving and attack the player
-            // Add attack code 
+            
             Debug.Log("Skeleton attacking player!");
         }
     }
@@ -71,7 +72,7 @@ public class Skeleton : MonoBehaviour
 
     private void Die()
     {
-        // Add death code here
+        Instantiate(skeletonXP, transform.position , Quaternion.identity);
         Debug.Log("Skeleton died!");
         Destroy(gameObject);
     }

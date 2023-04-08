@@ -5,13 +5,14 @@ public class Brute : MonoBehaviour
     public float moveSpeed = 3.0f;
     public float bruteAttackRange = 1.0f;
     public int bruteHealth = 200;
+    [SerializeField] private GameObject bruteXP;
 
     private GameObject player;
 
     private void Start()
     {
-        // Find the player object in the scene
         player = GameObject.FindGameObjectWithTag("Player");
+       
     }
 
     private void Update()
@@ -20,10 +21,10 @@ public class Brute : MonoBehaviour
 
         if (distanceToPlayer > bruteAttackRange)
         {
-            // Move towards the player
+            
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);
 
-            // Flip sprite to face the player
+           
             if (transform.position.x > player.transform.position.x)
             {
                 transform.localScale = new Vector2(-1, 1);
@@ -35,8 +36,7 @@ public class Brute : MonoBehaviour
         }
         else
         {
-            // Stop moving and attack the player
-            // Add attack code 
+            
             Debug.Log("Skeleton attacking player!");
         }
     }
@@ -58,7 +58,7 @@ public class Brute : MonoBehaviour
         if (other.gameObject.tag == "Projectile")
         {
             bruteHealth = bruteHealth - Projectile.projectileDamage;
-            Debug.Log("Çarptý");
+            Debug.Log("Ã‡arptÄ±");
         }
         if (bruteHealth <= 0)
         {
@@ -71,8 +71,9 @@ public class Brute : MonoBehaviour
 
     private void Die()
     {
-        // Add death code here
+        Instantiate(bruteXP , transform.position , Quaternion.identity);
         Debug.Log("Brute died!");
         Destroy(gameObject);
+        
     }
 }
