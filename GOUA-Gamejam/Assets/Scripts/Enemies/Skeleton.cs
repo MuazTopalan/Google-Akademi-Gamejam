@@ -55,7 +55,7 @@ public class Skeleton : MonoBehaviour
             }
             else if (gameObject.CompareTag("Bible"))
             {
-                skeletonHealth -= Bible.bibleDamage;
+                skeletonHealth -= Rotate.bibleDamage;
             }
             else if (gameObject.CompareTag("Projectile"))
             {
