@@ -262,9 +262,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 2535092005293393095, guid: 584a7f775cf558547991bf58a4c43e9e, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+>>>>>>> eadf4074dcae7945c895ad525006c240e131841c
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 584a7f775cf558547991bf58a4c43e9e, type: 3}
