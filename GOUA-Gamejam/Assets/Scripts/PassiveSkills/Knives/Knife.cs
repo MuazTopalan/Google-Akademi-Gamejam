@@ -6,6 +6,8 @@ public class Knife : MonoBehaviour
 {
     [SerializeField] private float knifeMovementSpeed = 1;
     [SerializeField] private GameObject player;
+
+    public static int knifeDamage = 30;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");

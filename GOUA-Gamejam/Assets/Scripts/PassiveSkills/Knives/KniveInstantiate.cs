@@ -8,7 +8,7 @@ public class KniveInstantiate : MonoBehaviour
     [SerializeField] private GameObject tripleKnife;
     [SerializeField] private GameObject quadraKnife;
     public static int multipleKnifeInstantiteFrequency = 3;
-    public static int multipleKnifeChanger = 2;
+    public static int multipleKnifeChanger = 4;
     void Start()
     {
         InvokeRepeating("KnifeInstantiate" , 1 , multipleKnifeInstantiteFrequency);
