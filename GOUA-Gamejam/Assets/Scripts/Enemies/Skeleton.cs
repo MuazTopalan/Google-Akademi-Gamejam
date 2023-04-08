@@ -36,10 +36,9 @@ public class Skeleton : MonoBehaviour
         else
         {
             // Stop moving and attack the player
-            // Add your attack code here
+            // Add attack code 
             Debug.Log("Skeleton attacking player!");
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -72,7 +71,7 @@ public class Skeleton : MonoBehaviour
 
     private void Die()
     {
-        // Add your death code here
+        // Add death code here
         Debug.Log("Skeleton died!");
         Destroy(gameObject);
     }

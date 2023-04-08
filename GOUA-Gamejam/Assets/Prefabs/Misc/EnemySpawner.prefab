@@ -51,5 +51,5 @@ MonoBehaviour:
     rarity: 3
   - enemyPrefab: {fileID: 1445277292577042729, guid: 762455ff416002244be53af1b10acb4a, type: 3}
     rarity: 2
-  spawnDelay: 5
-  maxEnemies: 10
+  spawnDelay: 2.5
+  maxEnemies: 20

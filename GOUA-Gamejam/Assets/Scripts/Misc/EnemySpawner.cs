@@ -28,17 +28,17 @@ public class EnemySpawner : MonoBehaviour
             return;
         }
 
-        // Calculate the total rarity of all enemies
+        // Calculating the total rarity of all enemies
         int totalRarity = 0;
         foreach (EnemySpawnInfo enemy in enemies)
         {
             totalRarity += enemy.rarity;
         }
 
-        // Choose a random number between 1 and the total rarity
+        // Choosing a random number between 1 and the total rarity
         int randomValue = Random.Range(1, totalRarity + 1);
 
-        // Choose which enemy to spawn based on the random value
+        // Choosing which enemy to spawn based on the random value
         GameObject enemyToSpawn = null;
         foreach (EnemySpawnInfo enemy in enemies)
         {
@@ -52,7 +52,7 @@ public class EnemySpawner : MonoBehaviour
 
         if (enemyToSpawn != null)
         {
-            // Spawn the enemy at a random position
+            // Spawning the enemy at a random position
             Vector3 spawnPosition = new Vector3(Random.Range(-10.0f, 10.0f), Random.Range(-10.0f, 10.0f), 0.0f);
             Instantiate(enemyToSpawn, spawnPosition, Quaternion.identity);
 
