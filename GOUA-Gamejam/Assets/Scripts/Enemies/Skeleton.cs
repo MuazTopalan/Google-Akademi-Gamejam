@@ -44,11 +44,6 @@ public class Skeleton : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        TakeDamage();
-    }
-
-    public void TakeDamage(int damage)
-    {
         if (skeletonHealth > 0)
         {
             if (gameObject.CompareTag("Knife"))
@@ -74,6 +69,8 @@ public class Skeleton : MonoBehaviour
             }
         }
     }
+
+    
 
     private void Die()
     {
