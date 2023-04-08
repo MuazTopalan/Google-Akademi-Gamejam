@@ -4,6 +4,7 @@ public class Skeleton : MonoBehaviour
 {
     public float moveSpeed = 3.0f;
     public float skeletonAttackRange = 1.0f;
+    public int skeletonHealth = 100;
 
     private GameObject player;
 
@@ -38,5 +39,40 @@ public class Skeleton : MonoBehaviour
             // Add your attack code here
             Debug.Log("Skeleton attacking player!");
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (skeletonHealth > 0)
+        {
+            if (gameObject.CompareTag("Knife"))
+            {
+                skeletonHealth -= Knife.knifeDamage;
+            }
+            else if (gameObject.CompareTag("Aura"))
+            {
+                skeletonHealth -= Aura.auraDamage;
+            }
+            else if (gameObject.CompareTag("Bible"))
+            {
+                skeletonHealth -= Bible.bibleDamage;
+            }
+            else if (gameObject.CompareTag("Projectile"))
+            {
+                skeletonHealth -= Projectile.projectileDamage;
+            }
+
+            if (skeletonHealth <= 0)
+            {
+                Die();
+            }
+        }
+    }
+
+    private void Die()
+    {
+        // Add your death code here
+        Debug.Log("Skeleton died!");
+        Destroy(gameObject);
     }
 }
