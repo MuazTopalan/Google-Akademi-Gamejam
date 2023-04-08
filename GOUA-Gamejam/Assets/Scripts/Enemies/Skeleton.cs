@@ -42,32 +42,32 @@ public class Skeleton : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (skeletonHealth > 0)
-        {
-            if (gameObject.CompareTag("Knife"))
+        if (other.gameObject.tag == "Knife")
             {
                 skeletonHealth -= Knife.knifeDamage;
             }
-            else if (gameObject.CompareTag("Aura"))
+        if (other.gameObject.tag == "Aura")
             {
                 skeletonHealth -= Aura.auraDamage;
             }
-            else if (gameObject.CompareTag("Bible"))
+        if (other.gameObject.tag == "Bible")
             {
                 skeletonHealth -= Rotate.bibleDamage;
             }
-            else if (gameObject.CompareTag("Projectile"))
+        if (other.gameObject.tag == "Projectile")
             {
                 skeletonHealth = skeletonHealth - Projectile.projectileDamage;
+                Debug.Log("Çarptı");
             }
-
-            if (skeletonHealth <= 0)
+        if (skeletonHealth <= 0)
             {
                 Die();
             }
-        }
+        
+        
     }
 
     
