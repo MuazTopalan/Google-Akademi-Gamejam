@@ -4,26 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - Enemy
-=======
-=======
->>>>>>> eadf4074dcae7945c895ad525006c240e131841c
->>>>>>> Stashed changes
   - Knife
   - Aura
   - Bible
   - Projectile
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
->>>>>>> b4e1142162d6aceed07135f0a3cc414bcab63948
-=======
->>>>>>> eadf4074dcae7945c895ad525006c240e131841c
->>>>>>> Stashed changes
+  - Enemy
   layers:
   - Default
   - TransparentFX
