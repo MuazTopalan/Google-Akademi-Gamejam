@@ -5,7 +5,7 @@ public class TeleporterSpawner : MonoBehaviour
 {
     public GameObject teleporterPrefab;
 
-    private float timeToSpawn = 20f; // 5 minutes in seconds
+    private float timeToSpawn = 300f; // 5 minutes in seconds
     private float timer = 0f;
 
     private void Update()
