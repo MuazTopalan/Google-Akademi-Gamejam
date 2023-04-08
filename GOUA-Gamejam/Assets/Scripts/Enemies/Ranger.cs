@@ -3,7 +3,7 @@ using UnityEngine;
 public class Ranger : MonoBehaviour
 {
     public float moveSpeed = 3.0f;
-    public float skeletonAttackRange = 1.0f;
+    public float rangerAttackRange = 1.0f;
     public int rangerHealth = 100;
 
     private GameObject player;
@@ -18,7 +18,7 @@ public class Ranger : MonoBehaviour
     {
         float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
 
-        if (distanceToPlayer > skeletonAttackRange)
+        if (distanceToPlayer > rangerAttackRange)
         {
             // Move towards the player
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);

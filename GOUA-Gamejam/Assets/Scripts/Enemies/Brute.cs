@@ -3,7 +3,7 @@ using UnityEngine;
 public class Brute : MonoBehaviour
 {
     public float moveSpeed = 3.0f;
-    public float skeletonAttackRange = 1.0f;
+    public float bruteAttackRange = 1.0f;
     public int bruteHealth = 200;
 
     private GameObject player;
@@ -18,7 +18,7 @@ public class Brute : MonoBehaviour
     {
         float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
 
-        if (distanceToPlayer > skeletonAttackRange)
+        if (distanceToPlayer > bruteAttackRange)
         {
             // Move towards the player
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);

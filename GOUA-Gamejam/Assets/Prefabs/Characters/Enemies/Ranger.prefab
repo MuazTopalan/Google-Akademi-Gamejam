@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  skeletonAttackRange: 1
+  rangerAttackRange: 5
   rangerHealth: 100
 --- !u!50 &-8631461204119319959
 Rigidbody2D:
