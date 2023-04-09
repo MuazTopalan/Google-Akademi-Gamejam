@@ -12,6 +12,9 @@ TagManager:
   - BruteXP
   - RangerXP
   - SkeletonXP
+  - RangerArrow
+  - SkeletonMelee
+  - BruteMelee
   layers:
   - Default
   - TransparentFX

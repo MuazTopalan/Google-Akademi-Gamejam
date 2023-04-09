@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 01c7df8c3b2201f4582a2a6a08204529
+guid: 6bb45b3823abff64d9c799f41f03340d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walk_0
+      name: level-gecme-buttonlar_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 0
-        width: 35
-        height: 64
+        x: 699
+        y: 565
+        width: 128
+        height: 129
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2ff1696be34942428c4a5d138832213
-      internalID: -334981891
+      spriteID: d0e08ff04ec415743a4d2b864eb4dea4
+      internalID: 1271926310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_1
+      name: level-gecme-buttonlar_1
       rect:
         serializedVersion: 2
-        x: 176
-        y: 0
-        width: 35
-        height: 64
+        x: 848
+        y: 565
+        width: 129
+        height: 129
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a59f8f2609583344ba53aaca492da6f
-      internalID: -1837602096
+      spriteID: 51ab2f12b76d9a14790b389ce448d9f5
+      internalID: -783757505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_2
+      name: level-gecme-buttonlar_2
       rect:
         serializedVersion: 2
-        x: 305
-        y: 0
-        width: 35
-        height: 64
+        x: 997
+        y: 565
+        width: 129
+        height: 129
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09d8432b8ed3e8341b08e3df19bed843
-      internalID: 735032516
+      spriteID: c2e30edddc227b349aef21acea6fe5d6
+      internalID: 707317930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_3
+      name: level-gecme-buttonlar_3
       rect:
         serializedVersion: 2
-        x: 433
-        y: 0
-        width: 35
-        height: 64
+        x: 1146
+        y: 565
+        width: 129
+        height: 129
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e7ae67148160db42a93843d7dae0191
-      internalID: 918214410
+      spriteID: 35fbe74e53a3d9142af49de865514338
+      internalID: 1945405070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_4
+      name: level-gecme-buttonlar_4
       rect:
         serializedVersion: 2
-        x: 560
-        y: 0
-        width: 35
-        height: 64
+        x: 699
+        y: 413
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e332f33b9afbfb64aa8c8ca5eb688ea5
-      internalID: -287580821
+      spriteID: 145b4a04d78298e4abc03e27e690a69e
+      internalID: -54895956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_5
+      name: level-gecme-buttonlar_5
       rect:
         serializedVersion: 2
-        x: 687
-        y: 0
-        width: 35
-        height: 64
+        x: 848
+        y: 413
+        width: 129
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a0e0a8be4d653e4eaf298d5353462d9
-      internalID: 265648844
+      spriteID: b40c42853e5be174583f11923c248617
+      internalID: 1062317734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_6
+      name: level-gecme-buttonlar_6
       rect:
         serializedVersion: 2
-        x: 814
-        y: 0
-        width: 35
-        height: 64
+        x: 997
+        y: 413
+        width: 129
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a57d7c2890b99c447bed6a12ed958cdc
-      internalID: 2032515862
+      spriteID: b96044cb5ffb3784aba8495355d07668
+      internalID: 1363420781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_7
+      name: level-gecme-buttonlar_7
       rect:
         serializedVersion: 2
-        x: 943
-        y: 0
-        width: 35
-        height: 64
+        x: 1146
+        y: 413
+        width: 129
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 241d459de97e3a74da52e9f43f3317b3
-      internalID: -2069984266
+      spriteID: 68607ced7ea5ae84892758fc855647f8
+      internalID: 206993777
       vertices: []
       indices: 
       edges: []
@@ -283,14 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Walk_0: -334981891
-      Walk_1: -1837602096
-      Walk_2: 735032516
-      Walk_3: 918214410
-      Walk_4: -287580821
-      Walk_5: 265648844
-      Walk_6: 2032515862
-      Walk_7: -2069984266
+      level-gecme-buttonlar_0: 1271926310
+      level-gecme-buttonlar_1: -783757505
+      level-gecme-buttonlar_2: 707317930
+      level-gecme-buttonlar_3: 1945405070
+      level-gecme-buttonlar_4: -54895956
+      level-gecme-buttonlar_5: 1062317734
+      level-gecme-buttonlar_6: 1363420781
+      level-gecme-buttonlar_7: 206993777
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -22,22 +22,21 @@ public class CharacterHealthAndXP: MonoBehaviour
         {
             playerHealth = playerHealth - 10;
         }
-        if(other.gameObject.tag == "SkeletonXP")
+        if (other.gameObject.tag == "RangerArrow")
+        {
+            playerHealth = playerHealth - 5;
+        }
+        if (other.gameObject.tag == "SkeletonXP")
         {
             xp = xp + 100;
-            
-            
         }
         if(other.gameObject.tag == "RangerXP")
         {
-            xp = xp + 200;
-            
+            xp = xp + 200;           
         }
         if(other.gameObject.tag == "BruteXP")
         {
-            xp = xp + 300;
-            
+            xp = xp + 300;           
         }
     }
-    
 }

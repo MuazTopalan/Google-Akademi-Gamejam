@@ -33,7 +33,11 @@ Transform:
   m_GameObject: {fileID: 374295422068125}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
   m_LocalScale: {x: 4, y: 4, z: 1}
+=======
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 374294687219788}
@@ -86,7 +90,11 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 1708483918, guid: 24f990b82c5f31547a63e3c29e92c4a7, type: 3}
+=======
+  m_Sprite: {fileID: -1626903807, guid: 24f990b82c5f31547a63e3c29e92c4a7, type: 3}
+>>>>>>> Stashed changes
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,7 +139,11 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< Updated upstream
   m_Offset: {x: 0.006931007, y: -0.0017206073}
+=======
+  m_Offset: {x: 0.0062270164, y: 0.029579014}
+>>>>>>> Stashed changes
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -142,7 +154,11 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Size: {x: 0.28410617, y: 0.6730734}
+=======
+  m_Size: {x: 0.29633236, y: 0.7104376}
+>>>>>>> Stashed changes
   m_EdgeRadius: 0
 --- !u!114 &374295422068126
 MonoBehaviour:
@@ -278,8 +294,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2864038797181634812, guid: 2ff35a8144da9514cbf4aed3519cf188, type: 3}
     m_RemovedComponents:
+<<<<<<< Updated upstream
     - {fileID: 1185273832172035462, guid: 7119e4051043268428e857af533edaa0, type: 3}
     - {fileID: 1185273832172035463, guid: 7119e4051043268428e857af533edaa0, type: 3}
+=======
+    - {fileID: 1185273832172035463, guid: 7119e4051043268428e857af533edaa0, type: 3}
+    - {fileID: 1185273832172035462, guid: 7119e4051043268428e857af533edaa0, type: 3}
+>>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: 7119e4051043268428e857af533edaa0, type: 3}
 --- !u!4 &374294362224802 stripped
 Transform:
