@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 7502731589994083360}
   - component: {fileID: 1920866653511270026}
   - component: {fileID: 5501882375308953410}
+  - component: {fileID: 306387331}
   m_Layer: 0
   m_Name: Ranger
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,11 +122,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  rangerAttackRange: 3
   rangerHealth: 100
-  rangerArrowPrefab: {fileID: 4272803424422766580, guid: 4d18e03e565eab1498694782b3020db1, type: 3}
   rangerAttackCooldown: 2
+  rangerAttackRange: 3
   rangerXP: {fileID: 6240466532063727614, guid: 7b2d10b2ab4222f41a0f6594ee126eff, type: 3}
+  rangerArrowPrefab: {fileID: 4272803424422766580, guid: 4d18e03e565eab1498694782b3020db1, type: 3}
 --- !u!61 &5501882375308953410
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -152,3 +153,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.35, y: 0.64}
   m_EdgeRadius: 0
+--- !u!95 &306387331
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313776841601517064}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c0832cb72c57e634fbd2246a2eb451bc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
