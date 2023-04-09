@@ -105,78 +105,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: ates-top_13
-      rect:
-        serializedVersion: 2
-        x: 968
-        y: 866
-        width: 580
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 881646e276e091843a094e1c200c877a
-      internalID: 1258657506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ates-top_14
-      rect:
-        serializedVersion: 2
-        x: 1659
-        y: 868
-        width: 611
-        height: 196
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f49451f644e93046b0cff48c8a33eb1
-      internalID: -859600555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ates-top_15
-      rect:
-        serializedVersion: 2
-        x: 2484
-        y: 881
-        width: 536
-        height: 196
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2660253e80928da45a17115340494dd5
-      internalID: -1346291545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ates-top_16
-      rect:
-        serializedVersion: 2
-        x: 3176
-        y: 866
-        width: 565
-        height: 198
-=======
       name: 
       rect:
         serializedVersion: 2
@@ -184,7 +112,6 @@ TextureImporter:
         y: 0
         width: 0
         height: 0
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,13 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 8f5444e0089b3c449b40bd8fd75afdb9
-      internalID: 751782000
-=======
       spriteID: 5e97eb03825dee720800000000000000
       internalID: 2877471580529523173
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -206,11 +128,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-<<<<<<< Updated upstream
-    spriteID: d55cbfbca274d06488c5e6948d991e0e
-=======
     spriteID: 
->>>>>>> Stashed changes
     internalID: 0
     vertices: []
     indices: 
@@ -218,33 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<< Updated upstream
-      ates-top_0: -1846040136
-      ates-top_1: -1471221167
-      ates-top_10: 766114345
-      ates-top_11: 1602511021
-      ates-top_12: 1294113592
-      ates-top_13: 1258657506
-      ates-top_14: -859600555
-      ates-top_15: -1346291545
-      ates-top_16: 751782000
-      ates-top_17: -21708317
-      ates-top_18: 886765540
-      ates-top_19: -26906965
-      ates-top_2: -245099259
-      ates-top_20: -586129059
-      ates-top_21: 589889854
-      ates-top_22: 462637458
-      ates-top_3: 40284817
-      ates-top_4: 663780447
-      ates-top_5: -27190109
-      ates-top_6: 1835838748
-      ates-top_7: -428079038
-      ates-top_8: -2111427574
-      ates-top_9: 432527256
-=======
       : 2877471580529523173
->>>>>>> Stashed changes
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
