@@ -105,164 +105,76 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< Updated upstream:GOUA-Gamejam/Assets/Sprites/CharacterAnim/Rock/ates-top.png.meta
       name: ates-top_13
       rect:
         serializedVersion: 2
-        x: 903
+        x: 968
         y: 866
-        width: 643
-        height: 249
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
-      name: Idle_0
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 0
-        width: 28
-        height: 66
+        width: 580
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:GOUA-Gamejam/Assets/Sprites/craftpix-net-581214-free-wizard-sprite-sheets-pixel-art/Fire vizard/Idle.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:GOUA-Gamejam/Assets/Sprites/CharacterAnim/Rock/ates-top.png.meta
-      spriteID: b8e266109005b4f419bb9657adcd4257
-      internalID: -292759927
-=======
-      spriteID: 1e5bfe5207ede1841b880f8a92b18697
-      internalID: -1626903807
->>>>>>> Stashed changes:GOUA-Gamejam/Assets/Sprites/craftpix-net-581214-free-wizard-sprite-sheets-pixel-art/Fire vizard/Idle.png.meta
+      spriteID: 881646e276e091843a094e1c200c877a
+      internalID: 1258657506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream:GOUA-Gamejam/Assets/Sprites/CharacterAnim/Rock/ates-top.png.meta
       name: ates-top_14
       rect:
         serializedVersion: 2
-        x: 1643
-        y: 869
-        width: 627
-        height: 247
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
-      name: Idle_1
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 0
-        width: 28
-        height: 66
+        x: 1659
+        y: 868
+        width: 611
+        height: 196
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:GOUA-Gamejam/Assets/Sprites/craftpix-net-581214-free-wizard-sprite-sheets-pixel-art/Fire vizard/Idle.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:GOUA-Gamejam/Assets/Sprites/CharacterAnim/Rock/ates-top.png.meta
-      spriteID: 2471905f67c016f46a500a9bf3ee4d7a
-      internalID: 2108434669
-=======
-      spriteID: 97b8910e7bdabaf419c8579fbaa50164
-      internalID: 1962904084
->>>>>>> Stashed changes:GOUA-Gamejam/Assets/Sprites/craftpix-net-581214-free-wizard-sprite-sheets-pixel-art/Fire vizard/Idle.png.meta
+      spriteID: 5f49451f644e93046b0cff48c8a33eb1
+      internalID: -859600555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream:GOUA-Gamejam/Assets/Sprites/CharacterAnim/Rock/ates-top.png.meta
       name: ates-top_15
       rect:
         serializedVersion: 2
-        x: 2357
-        y: 862
-        width: 661
-        height: 257
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
-      name: Idle_2
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 0
-        width: 31
-        height: 66
+        x: 2484
+        y: 881
+        width: 536
+        height: 196
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:GOUA-Gamejam/Assets/Sprites/craftpix-net-581214-free-wizard-sprite-sheets-pixel-art/Fire vizard/Idle.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:GOUA-Gamejam/Assets/Sprites/CharacterAnim/Rock/ates-top.png.meta
-      spriteID: 42dc295a11c36dd4a835cc297bb32365
-      internalID: 1664597176
-=======
-      spriteID: 94eff4a46687b3243996b3f09fc49a50
-      internalID: -978127571
->>>>>>> Stashed changes:GOUA-Gamejam/Assets/Sprites/craftpix-net-581214-free-wizard-sprite-sheets-pixel-art/Fire vizard/Idle.png.meta
+      spriteID: 2660253e80928da45a17115340494dd5
+      internalID: -1346291545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream:GOUA-Gamejam/Assets/Sprites/CharacterAnim/Rock/ates-top.png.meta
       name: ates-top_16
       rect:
         serializedVersion: 2
-        x: 3112
+        x: 3176
         y: 866
-        width: 630
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
-      name: Idle_3
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 0
-        width: 33
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:GOUA-Gamejam/Assets/Sprites/craftpix-net-581214-free-wizard-sprite-sheets-pixel-art/Fire vizard/Idle.png.meta
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-<<<<<<< Updated upstream:GOUA-Gamejam/Assets/Sprites/CharacterAnim/Rock/ates-top.png.meta
-      spriteID: 6b7d77660fbe721459728469ed1ce60b
-      internalID: 1469279193
-=======
-      spriteID: bfc1dad28b8265243a478fb7936ef337
-      internalID: 690609313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_4
-      rect:
-        serializedVersion: 2
-        x: 545
-        y: 0
-        width: 31
-        height: 66
+        width: 565
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,51 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa05adc5d4d88714d8c399d336d2d88d
-      internalID: -1355623940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_5
-      rect:
-        serializedVersion: 2
-        x: 673
-        y: 0
-        width: 31
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cb0913253fc3c64aa95c7b05457e0b3
-      internalID: -1031101008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_6
-      rect:
-        serializedVersion: 2
-        x: 804
-        y: 0
-        width: 28
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03ce120f715c2354c8d18963d5764953
-      internalID: 1241486102
->>>>>>> Stashed changes:GOUA-Gamejam/Assets/Sprites/craftpix-net-581214-free-wizard-sprite-sheets-pixel-art/Fire vizard/Idle.png.meta
+      spriteID: 8f5444e0089b3c449b40bd8fd75afdb9
+      internalID: 751782000
       vertices: []
       indices: 
       edges: []
@@ -322,7 +191,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: d55cbfbca274d06488c5e6948d991e0e
     internalID: 0
     vertices: []
     indices: 
@@ -330,39 +199,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<< Updated upstream:GOUA-Gamejam/Assets/Sprites/CharacterAnim/Rock/ates-top.png.meta
-      ates-top_0: -862639998
-      ates-top_1: 556875278
-      ates-top_10: 438387715
-      ates-top_11: 1289997322
-      ates-top_12: -872172790
-      ates-top_13: -292759927
-      ates-top_14: 2108434669
-      ates-top_15: 1664597176
-      ates-top_16: 1469279193
-      ates-top_17: 317318437
-      ates-top_18: 741941458
-      ates-top_19: 1573324835
-      ates-top_2: 2106633297
-      ates-top_20: -810011922
-      ates-top_21: 561761092
-      ates-top_22: -1172762370
-      ates-top_3: 1889823328
-      ates-top_4: -1115030482
-      ates-top_5: -2031075815
-      ates-top_6: 846393096
-      ates-top_7: 368399420
-      ates-top_8: 1434983884
-      ates-top_9: 113715697
-=======
-      Idle_0: -1626903807
-      Idle_1: 1962904084
-      Idle_2: -978127571
-      Idle_3: 690609313
-      Idle_4: -1355623940
-      Idle_5: -1031101008
-      Idle_6: 1241486102
->>>>>>> Stashed changes:GOUA-Gamejam/Assets/Sprites/craftpix-net-581214-free-wizard-sprite-sheets-pixel-art/Fire vizard/Idle.png.meta
+      ates-top_0: -1846040136
+      ates-top_1: -1471221167
+      ates-top_10: 766114345
+      ates-top_11: 1602511021
+      ates-top_12: 1294113592
+      ates-top_13: 1258657506
+      ates-top_14: -859600555
+      ates-top_15: -1346291545
+      ates-top_16: 751782000
+      ates-top_17: -21708317
+      ates-top_18: 886765540
+      ates-top_19: -26906965
+      ates-top_2: -245099259
+      ates-top_20: -586129059
+      ates-top_21: 589889854
+      ates-top_22: 462637458
+      ates-top_3: 40284817
+      ates-top_4: 663780447
+      ates-top_5: -27190109
+      ates-top_6: 1835838748
+      ates-top_7: -428079038
+      ates-top_8: -2111427574
+      ates-top_9: 432527256
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
