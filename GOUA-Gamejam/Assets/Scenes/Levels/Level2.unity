@@ -173,6 +173,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5347519009247947081, guid: 584a7f775cf558547991bf58a4c43e9e, type: 3}
   m_PrefabInstance: {fileID: 5347519009638199602}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &687691908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687691899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9caf0750cbf00b4c9acf616bb3c6a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doubleKnife: {fileID: 5151785938791411644, guid: 5674cc1065db4884cb1bf4f20b9570d3, type: 3}
+  tripleKnife: {fileID: 3961372660607389139, guid: e0114ed10e933c449b8d3d06aa89a751, type: 3}
+  quadraKnife: {fileID: 2905725027346628715, guid: e56d2e27e4a824d4eaef21a09124c7b2, type: 3}
 --- !u!114 &919753985 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8913679032507992914, guid: a1621fd965b9bfd408a9905e60d3d81e, type: 3}
