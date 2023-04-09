@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6240466532063727552}
   - component: {fileID: 6240466532063727615}
   - component: {fileID: 6613008790209982707}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RangerXP
   m_TagString: RangerXP
   m_Icon: {fileID: 0}
