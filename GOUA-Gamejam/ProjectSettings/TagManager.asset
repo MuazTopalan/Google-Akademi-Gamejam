@@ -49,3 +49,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Level3Normal
+    uniqueID: 654516539
+    locked: 0
+  - name: Level3Collide
+    uniqueID: 2846257597
+    locked: 0
+  - name: Aura
+    uniqueID: 3708270769
+    locked: 0
+  - name: Player
+    uniqueID: 4156788577
+    locked: 0
