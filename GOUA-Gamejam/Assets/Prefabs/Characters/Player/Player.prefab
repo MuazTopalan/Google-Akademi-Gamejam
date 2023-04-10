@@ -15,8 +15,15 @@ GameObject:
   - component: {fileID: 5347519009247947185}
   - component: {fileID: 5347519009247947184}
   - component: {fileID: 5347519009247947186}
+<<<<<<< Updated upstream
   - component: {fileID: 5774237922829508246}
   - component: {fileID: 2754515870505685888}
+=======
+  - component: {fileID: 5347519009247947085}
+  - component: {fileID: 2976819612134481772}
+  - component: {fileID: 162521000235820587}
+  - component: {fileID: 3551178589698630029}
+>>>>>>> Stashed changes
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -178,6 +185,7 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5347519009247947081}
   m_Enabled: 1
+<<<<<<< Updated upstream
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -197,6 +205,28 @@ BoxCollider2D:
   m_Size: {x: 0.2, y: 0.66}
   m_EdgeRadius: 0
 --- !u!50 &2754515870505685888
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdded646f16135e4ea66a28a54a7a72c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2976819612134481772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5347519009247947081}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9caf0750cbf00b4c9acf616bb3c6a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doubleKnife: {fileID: 5151785938791411644, guid: 5674cc1065db4884cb1bf4f20b9570d3, type: 3}
+  tripleKnife: {fileID: 3961372660607389139, guid: e0114ed10e933c449b8d3d06aa89a751, type: 3}
+  quadraKnife: {fileID: 2905725027346628715, guid: e56d2e27e4a824d4eaef21a09124c7b2, type: 3}
+--- !u!50 &162521000235820587
+>>>>>>> Stashed changes
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -216,7 +246,37 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+<<<<<<< Updated upstream
   m_Constraints: 0
+=======
+  m_Constraints: 4
+--- !u!61 &3551178589698630029
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5347519009247947081}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.2, y: 0.66}
+    newSize: {x: 0.2, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.66}
+  m_EdgeRadius: 0
+>>>>>>> Stashed changes
 --- !u!1001 &5347519007800940902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -610,7 +670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7291023244463209785, guid: 7d62e89e883ddf44a9ebb93c5e201f55, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d62e89e883ddf44a9ebb93c5e201f55, type: 3}

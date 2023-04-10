@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   rangerHealth: 100
-  rangerAttackCooldown: 2
+  rangerAttackDamage: 10
   rangerAttackRange: 3
   rangerXP: {fileID: 6240466532063727614, guid: 7b2d10b2ab4222f41a0f6594ee126eff, type: 3}
   rangerArrowPrefab: {fileID: 4272803424422766580, guid: 4d18e03e565eab1498694782b3020db1, type: 3}
