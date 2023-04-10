@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Ranger : MonoBehaviour
@@ -6,39 +7,39 @@ public class Ranger : MonoBehaviour
     public float moveSpeed = 3.0f;
     public int rangerHealth = 100;
 
-    public int rangerAttackDamage = 10;
+    public float rangerAttackCooldown = 1.0f;
     public float rangerAttackRange = 1.0f;
-    private bool isAttacking = false;
-    private float attackCooldown = 2.0f;
-    private float timeSinceLastAttack = 0.0f;
+    private bool isAttacking;
 
     private Animator anim;
 
     private GameObject player;
+    private Transform playerTransform;
     [SerializeField] private GameObject rangerXP;
-    
-
+    [SerializeField] private GameObject rangerArrowPrefab;
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-       
+        playerTransform = player.transform;
         anim = GetComponent<Animator>();
     }
+
 
     private void Update()
     {
         float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
 
-        if (distanceToPlayer > rangerAttackRange)
+        if (distanceToPlayer <= rangerAttackRange && !isAttacking)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);
+            StartCoroutine(RangerAttack());
+        }
 
-            if (isAttacking)
-            {
-                isAttacking = false;
-                anim.SetBool("attacking", false);
-            }
+        else if (distanceToPlayer > rangerAttackRange)
+        {
+            Debug.Log("Ranger moving towards the player!");
+
+            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);
 
             SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
             if (transform.position.x > player.transform.position.x)
@@ -50,27 +51,23 @@ public class Ranger : MonoBehaviour
                 spriteRenderer.flipX = false;
             }
         }
-        else
-        {
-            Debug.Log("ranger attacking player!");
+    }
 
-            if (!isAttacking)
-            {
-                isAttacking = true;
-                anim.SetBool("attacking", true);
-            }
+    private IEnumerator RangerAttack()
+    {
+        Debug.Log("Ranger is attacking");
+        isAttacking = true;
+        anim.SetBool("attacking", true);
 
-           
+        GameObject arrow = Instantiate(rangerArrowPrefab, transform.position, Quaternion.identity);
+        Vector2 direction = (playerTransform.position - transform.position).normalized;
+        arrow.transform.right = direction;
+        arrow.GetComponent<Rigidbody2D>().velocity = direction * 10.0f;
 
-            if (timeSinceLastAttack >= attackCooldown)
-            {
-                timeSinceLastAttack = 0.0f;
-                CharacterHealthAndXP.playerHealth -= rangerAttackDamage;
-                StartCoroutine(DeactivateCollider());
-            }
-        }
+        yield return new WaitForSeconds(rangerAttackCooldown);
 
-        timeSinceLastAttack += Time.deltaTime;
+        isAttacking = false;
+        anim.SetBool("attacking", false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -93,29 +90,21 @@ public class Ranger : MonoBehaviour
         if (other.gameObject.tag == "Projectile")
         {
             rangerHealth = rangerHealth - Projectile.projectileDamage;
+            Debug.Log("Ranger got hit");
             anim.SetTrigger("hurt");
         }
         if (rangerHealth <= 0)
         {
             Debug.Log("HP 0 or lower");
             anim.SetTrigger("die");
+            Die();
         }
     }
 
     private void Die()
     {
         Instantiate(rangerXP, transform.position, Quaternion.identity);
-        Debug.Log("ranger died!");
+        Debug.Log("Ranger died!");
         Destroy(gameObject);
     }
-
-    IEnumerator DeactivateCollider()
-    {
-        yield return new WaitForSeconds(0.5f);
-      
-    }
 }
-
-
-
-
