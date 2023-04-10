@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 5347519009247947081}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14, y: -25, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7600575401632636}
@@ -512,6 +512,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 5347519009247947084}
+    - target: {fileID: 401304081871074465, guid: 7d62e89e883ddf44a9ebb93c5e201f55, type: 3}
+      propertyPath: orbitDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2523572853859915104, guid: 7d62e89e883ddf44a9ebb93c5e201f55, type: 3}
       propertyPath: m_SortingLayer
       value: 4
@@ -528,6 +532,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 5347519009247947084}
+    - target: {fileID: 2523572853859915105, guid: 7d62e89e883ddf44a9ebb93c5e201f55, type: 3}
+      propertyPath: orbitDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3742693568351944574, guid: 7d62e89e883ddf44a9ebb93c5e201f55, type: 3}
       propertyPath: player
       value: 
@@ -536,6 +544,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 5347519009247947084}
+    - target: {fileID: 3742693568351944574, guid: 7d62e89e883ddf44a9ebb93c5e201f55, type: 3}
+      propertyPath: orbitDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3742693568351944575, guid: 7d62e89e883ddf44a9ebb93c5e201f55, type: 3}
       propertyPath: m_SortingLayer
       value: 4
@@ -560,6 +572,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 5347519009247947084}
+    - target: {fileID: 6588444920801895841, guid: 7d62e89e883ddf44a9ebb93c5e201f55, type: 3}
+      propertyPath: orbitDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7291023244463209784, guid: 7d62e89e883ddf44a9ebb93c5e201f55, type: 3}
       propertyPath: m_RootOrder
       value: 4
