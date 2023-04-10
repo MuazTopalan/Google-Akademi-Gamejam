@@ -729,6 +729,8 @@ GameObject:
   - component: {fileID: 676327869917790114}
   - component: {fileID: 793792996999158664}
   - component: {fileID: 8379778728791592223}
+  - component: {fileID: 6437622436668959638}
+  - component: {fileID: 3316034104049922253}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -745,7 +747,7 @@ Transform:
   m_GameObject: {fileID: 4770650586868842109}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.3154802, y: 4.8075795, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7247802817310711931}
@@ -879,7 +881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 177b60b3f42380b43b6f9ad4120ba8f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 2864038797181634812, guid: 2ff35a8144da9514cbf4aed3519cf188, type: 3}
+  projectile: {fileID: 2864038797181634812, guid: aef03abebd52e464fb985263811244b8, type: 3}
   projectileSpeed: 20
   nextFire: 0
 --- !u!61 &793792996999158664
@@ -928,7 +930,33 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &6437622436668959638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4770650586868842109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8779d6ce6fd3a448a16a3f10427ee69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuScreen: {fileID: 0}
+--- !u!114 &3316034104049922253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4770650586868842109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8baabc5fc9f0d4c44b2c435a36aa099b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Stop: {fileID: 1024317503779879159, guid: b80085df98c12e04886eb13f7445f8f5, type: 3}
 --- !u!1 &4970751571270256960
 GameObject:
   m_ObjectHideFlags: 0
@@ -1678,7 +1706,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8805021974096653277
 Transform:
   m_ObjectHideFlags: 0

@@ -5,16 +5,21 @@ using UnityEngine;
 public class StopScene : MonoBehaviour
 {
     [SerializeField] private GameObject Stop;
+<<<<<<< Updated upstream
     [SerializeField] private GameObject doubleBible;
     [SerializeField] private GameObject tripleBible;
     
 
     
+=======
+      
+>>>>>>> Stashed changes
     void Update()
     {
         if(Input.GetKey(KeyCode.E) == true){
             Time.timeScale = 0;
             Debug.Log("Deneme");
+<<<<<<< Updated upstream
             Stop.SetActive(true);
             doubleBible.SetActive(false);
             tripleBible.SetActive(true);
@@ -25,7 +30,8 @@ public class StopScene : MonoBehaviour
             Stop.SetActive(false);
             doubleBible.SetActive(false);
             tripleBible.SetActive(true);
+=======
+>>>>>>> Stashed changes
         }
-        
     }
 }
